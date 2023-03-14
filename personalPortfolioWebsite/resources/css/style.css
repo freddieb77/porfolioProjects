@@ -24,8 +24,21 @@ li {
     float: right;
 }
 
-a {
+li a {
     display: block;
-    padding: 8px;
+    color: #726b69;
+    text-align: center;
+    padding: 14px 16px;
     background-color: #333c3f;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #d0c0c8;
+  }
+  
+
+.active {
+    background-color: #6d2cda;
+    color: white;
 }
