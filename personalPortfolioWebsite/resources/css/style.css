@@ -10,8 +10,22 @@ body {
 
 }
 
+.top-banner {
+    background-color: #6d2cda;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+li {
+    float: right;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #333c3f;
 }
