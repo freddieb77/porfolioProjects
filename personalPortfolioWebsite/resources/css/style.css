@@ -12,6 +12,13 @@ body {
 
 .top-banner {
     background-color: #6d2cda;
+    color: #d0c0c8;
+    text-align: center;
+}
+
+.logo {
+    background-color: #191a20;
+    color: #d0c0c8;
 }
 
 ul {
