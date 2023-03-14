@@ -11,6 +11,9 @@ body {
 .logo {
     background-color: #191a20;
     color: #d0c0c8;
+    width: 30%;
+    height: 5rem;
+    font-size: 2rem;
 }
 
 ul {
@@ -40,4 +43,9 @@ li a:hover:not(.active) {
 .active {
     background-color: #6d2cda;
     color: white;
+}
+
+.owner {
+    width: 45%;
+    height: auto;
 }
