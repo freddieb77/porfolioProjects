@@ -1,1 +1,17 @@
-body
+body {
+    background-color: #333c3f;
+}
+
+html {
+
+}
+
+body {
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding 0;
+}
