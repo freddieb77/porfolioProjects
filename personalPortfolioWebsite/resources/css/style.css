@@ -50,6 +50,12 @@ li a:hover:not(.active) {
     color: white;
 }
 
+main {
+    height: auto;
+    width: 100%;
+    margin-top: 6rem;
+}
+
 .owner {
     width: 45%;
     height: auto;
