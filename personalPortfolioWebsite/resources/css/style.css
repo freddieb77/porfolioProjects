@@ -16,8 +16,8 @@ nav {
     background-color: #191a20;
     color: #d0c0c8;
     width: 30%;
-    height: 5rem;
-    font-size: 2rem;
+    height: 7rem;
+    font-size: 3rem;
     float: left;
 }
 
@@ -41,6 +41,7 @@ li a {
     background-color: #333c3f;
     text-decoration: none;
     font-size: 1.5rem;
+    vertical-align: middle;
 }
 
 li a:hover:not(.active) {
@@ -56,7 +57,7 @@ li a:hover:not(.active) {
 main {
     height: auto;
     width: 100%;
-    margin-top: 6rem;
+    margin-top: 4rem;
 }
 
 .owner {
