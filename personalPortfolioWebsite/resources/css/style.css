@@ -40,6 +40,7 @@ li a {
     padding: 14px 16px;
     background-color: #333c3f;
     text-decoration: none;
+    font-size: 1.5rem;
 }
 
 li a:hover:not(.active) {
