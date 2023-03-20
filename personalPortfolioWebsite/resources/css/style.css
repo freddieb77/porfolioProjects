@@ -41,7 +41,6 @@ li a {
     background-color: #333c3f;
     text-decoration: none;
     font-size: 1.5rem;
-    vertical-align: middle;
 }
 
 li a:hover:not(.active) {
