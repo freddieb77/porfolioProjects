@@ -57,7 +57,8 @@ li a:hover:not(.active) {
 main {
     height: auto;
     width: 100%;
-    margin-top: 4rem;
+    /* margin-top: 3.6rem; */
+    clear: left;
 }
 
 .owner {
