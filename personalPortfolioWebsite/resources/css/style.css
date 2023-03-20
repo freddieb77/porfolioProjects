@@ -6,6 +6,8 @@ body {
     background-color: #6d2cda;
     color: #d0c0c8;
     text-align: center;
+    height: 3rem;
+    line-height: 3rem;
 }
 
 nav {
