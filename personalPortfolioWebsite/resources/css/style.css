@@ -4,7 +4,7 @@ html, body {
 }
 
 .top-banner {
-    background-color: #6d2cda;
+    background-image: linear-gradient(to right, #6d2cda, #9753de)
     color: #d0c0c8;
     text-align: center;
     height: 3rem;
