@@ -4,7 +4,7 @@ html, body {
 }
 
 .top-banner {
-    background-image: linear-gradient(to right, #6d2cda, #9753de)
+    background-image: linear-gradient(to right, #6d2cda, #9753de);
     color: #d0c0c8;
     text-align: center;
     height: 3rem;
@@ -23,6 +23,7 @@ nav {
     height: 7rem;
     font-size: 3rem;
     float: left;
+    line-height: .5rem;
 }
 
 ul {
