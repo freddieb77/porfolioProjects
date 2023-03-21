@@ -62,11 +62,40 @@ li a:hover:not(.active) {
 main {
     height: auto;
     width: 100%;
-    /* margin-top: 3.6rem; */
     clear: left;
 }
 
-.owner {
-    width: 45%;
-    height: auto;
+.container {
+    display: flex;
+    align-items: center;
 }
+
+.left {
+    width: 50%;
+    height: 600px;
+    background-image: url(/home/freddie/Documents/Visual_Studio/codecademyPortfolio/portfolioProjects/personalPortfolioWebsite/resources/images/fredBarrett02.jpg);
+    background-size: cover;
+  }
+
+  .right {
+    width: 50%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    color: white;
+    margin-left: -150px;
+  }
+
+  .right h1 {
+    font-size: 40px;
+    font-weight: lighter;
+  }
+
+  .right p {
+    margin: 20px 0;
+    font-weight: 500;
+    line-height: 25px;
+  }
+
