@@ -43,7 +43,7 @@ li a {
     display: block;
     color: #d0c0c8;
     text-align: center;
-    padding: 14px 16px;
+    padding: 2rem 2rem;
     background-color: #333c3f;
     text-decoration: none;
     font-size: 1.5rem;
@@ -72,7 +72,7 @@ main {
 
 .left {
     width: 50%;
-    height: 600px;
+    height: 650px;
     background-image: url(/home/freddie/Documents/Visual_Studio/codecademyPortfolio/portfolioProjects/personalPortfolioWebsite/resources/images/fredBarrett02.jpg);
     background-size: cover;
   }
