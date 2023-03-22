@@ -99,3 +99,8 @@ main {
     line-height: 25px;
   }
 
+  #skills {
+    height: 6rem;
+    width: 100%;
+  }
+  
