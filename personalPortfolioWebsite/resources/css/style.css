@@ -100,10 +100,10 @@ main {
   }
 
   #skills {
-    height: 6rem;
+    height: 8rem;
     width: 100%;
-    color: white;
+    color: #d0c0c8;
+    background-image: linear-gradient(to right, #6d2cda, #9753de);
   }
-
 
   
