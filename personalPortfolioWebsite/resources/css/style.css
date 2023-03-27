@@ -53,7 +53,7 @@ li a {
     font-size: 1.5rem;
 }
 
-li a:hover:not(.active) {
+nav li a:hover:not(.active) {
     background-color: #6d2cda;
   }
   
@@ -107,9 +107,15 @@ main {
 
 /* Projects Section */
 
+#projects {
+  text-align: center;
+  color: #d0c0c8;
+}
+
 .column {
   float: left;
   width: 33.33%;
+  text-align: center;
 }
 
 .row:after {
@@ -118,13 +124,43 @@ main {
   clear: both;  /* Clear floats after the columns */
 }
 
+.vertical-list {
+  width: 150px; /* Set a width if you like */
+}
+
+ul.vertical-list {
+  display: inline-block;
+  text-align: center;
+}
+
+.vertical-list a {
+  color: #d0c0c8;; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  text-align: center;
+}
+
+.vertical-list a:hover {
+  color: #6d2cda; 
+} 
+
+.vertical-list a.active {
+  background-color: #04AA6D; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
 /* Skills section */
   #skills {
     height: 8rem;
     width: 100%;
     color: #d0c0c8;
-    background-image: linear-gradient(to right, #6d2cda, #9753de);
     text-align: center;
   }
 
+  /*Footer Section  */
+
+footer {
+  background-image: linear-gradient(to right, #6d2cda, #9753de);
+}
   
