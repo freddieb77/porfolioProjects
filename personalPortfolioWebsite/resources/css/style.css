@@ -5,6 +5,10 @@ html, body {
     /* font-family: 'Roboto', sans-serif; */
 }
 
+h2 {
+  background-image: linear-gradient(to right, #6d2cda, #9753de);
+}
+
 .top-banner {
     background-image: linear-gradient(to right, #6d2cda, #9753de);
     color: #d0c0c8;
@@ -171,5 +175,13 @@ footer {
   background-image: linear-gradient(to right, #6d2cda, #9753de);
   text-align: center;
   color: #d0c0c8;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
   
