@@ -158,6 +158,13 @@ ul.vertical-list {
     text-align: center;
   }
 
+/* Contact Section */
+
+#contact {
+  text-align: center;
+  color: #d0c0c8;
+}
+
   /*Footer Section  */
 
 footer {
