@@ -162,5 +162,7 @@ ul.vertical-list {
 
 footer {
   background-image: linear-gradient(to right, #6d2cda, #9753de);
+  text-align: center;
+  color: #d0c0c8;
 }
   
