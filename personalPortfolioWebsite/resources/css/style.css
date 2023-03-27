@@ -14,6 +14,7 @@ html, body {
     line-height: 3rem;
 }
 
+/*  Nav Section */
 nav {
     display: inline;
 }
@@ -62,6 +63,7 @@ li a:hover:not(.active) {
     color: white;
 }
 
+/* Main section */
 main {
     height: auto;
     width: 100%;
@@ -103,6 +105,20 @@ main {
     line-height: 25px;
   }
 
+/* Projects Section */
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;  /* Clear floats after the columns */
+}
+
+/* Skills section */
   #skills {
     height: 8rem;
     width: 100%;
