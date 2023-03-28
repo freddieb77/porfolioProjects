@@ -5,6 +5,10 @@ html, body {
     /* font-family: 'Roboto', sans-serif; */
 }
 
+h2 {
+    text-decoration: underline;
+}
+
 .top-banner {
     background-image: linear-gradient(to right, #6d2cda, #9753de);
     color: #d0c0c8;
