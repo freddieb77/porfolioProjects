@@ -7,3 +7,14 @@ const showInfo = () => {
 }
 
 readMore.addEventListener('click', showInfo);
+
+
+let readLess = document.getElementById('read-less');
+
+
+const hideInfo = () => {
+  moreInfo.style.display = 'none';
+}
+
+readLess.addEventListener('click', hideInfo);
+
