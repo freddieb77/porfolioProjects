@@ -60,6 +60,7 @@ li a {
 
 nav li a:hover:not(.active) {
     background-color: #6d2cda;
+    color: white;
   }
   
 
@@ -106,6 +107,10 @@ main {
     margin: 20px 0;
     line-height: 25px;
   }
+
+#contrast {
+  color: #726b69;
+}
 
 #read-more {
     cursor: pointer;
