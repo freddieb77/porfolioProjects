@@ -26,9 +26,9 @@
   --c-max-width: 500px;
 
   width: var(--c-width);
-  max-width: var(--c-max-width);formcarry-form
+  max-width: var(--c-max-width);
   display: block;
-  margin: 2rem auto 2rem auto;
+  margin: 10vh auto 10vh auto;
 }
 
 .formcarry-form label {
