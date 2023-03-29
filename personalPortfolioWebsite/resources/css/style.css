@@ -113,6 +113,10 @@ main {
     cursor: pointer;
 }
 
+#read-more:hover {
+    color: #6d2cda; 
+  } 
+
 #more-info {
     display: none;
 }
@@ -137,7 +141,7 @@ main {
 }
 
 .vertical-list {
-  width: 150px; /* Set a width if you like */
+  width: 110px; /* Set a width if you like */
 }
 
 ul.vertical-list {
@@ -151,6 +155,7 @@ ul.vertical-list {
   padding: 12px; /* Add some padding */
   text-decoration: none; /* Remove underline from links */
   text-align: center;
+  font-size: 1rem;
 }
 
 .vertical-list a:hover {
@@ -181,6 +186,7 @@ ul.vertical-list {
 
 footer {
   background-image: linear-gradient(to right, #6d2cda, #9753de);
+  height: 3rem;
   text-align: center;
   color: #d0c0c8;
 }
