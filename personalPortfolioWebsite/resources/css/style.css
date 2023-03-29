@@ -217,6 +217,11 @@ footer {
 
 /* Contact Page Styling */
 
+#contact {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 /* Style all font awesome icons */
 .fa {
   padding: 20px;
