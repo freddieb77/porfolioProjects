@@ -109,6 +109,14 @@ main {
     line-height: 25px;
   }
 
+#read-more {
+    cursor: pointer;
+}
+
+#more-info {
+    display: none;
+}
+
 /* Projects Section */
 
 #projects {
