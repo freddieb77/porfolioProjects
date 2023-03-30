@@ -188,6 +188,7 @@ ul.vertical-list {
     width: 100%;
     color: #d0c0c8;
     text-align: center;
+    padding-bottom: 2rem;
   }
 
 /* Contact Section */
@@ -214,21 +215,22 @@ footer {
 }
 
 @media only screen and (max-width: 700px) {
-  
-}
 
-@media only screen and (max-width: 470px) {
-
-  }
-
-
-/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+  /* Responsive layout - when the screen is less than 700px wide, make the three columns stack on top of each other instead of next to each other */
   .column {
     width: 100%;
   }
+
+  #skills {
+    padding-bottom: 4rem;
+  }
 }
 
+@media only screen and (max-width: 470px) {
+  #skills {
+    padding-bottom: 6rem;
+  }
+  }
 
 /* Contact Page Styling */
 
