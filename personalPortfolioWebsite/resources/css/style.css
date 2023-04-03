@@ -301,21 +301,22 @@ footer {
 .right p {
   margin: 1rem;
 }
-  /* Responsive layout - when the screen is less than 700px wide, make the three columns stack on top of each other instead of next to each other */
-  .column {
-    width: 100%;
-  }
 
-  #skills {
-    padding-bottom: 4rem;
-  }
+/* Responsive layout - when the screen is less than 700px wide, make the three columns stack on top of each other instead of next to each other */
+.column {
+  width: 100%;
+}
+
+#skills {
+  padding-bottom: 4rem;
+}
 }
 
 @media only screen and (max-width: 470px) {
-  #skills {
-    padding-bottom: 6rem;
-  }
-  }
+#skills {
+  padding-bottom: 6rem;
+}
+}
 
 /* Contact Page Styling */
 
