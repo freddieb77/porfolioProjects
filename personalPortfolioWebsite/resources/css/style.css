@@ -87,9 +87,10 @@ main {
 
 .left {
     width: 50%;
-    height: 900px;
+    height: 775px;
     background-image: url(/home/freddie/Documents/Visual_Studio/codecademyPortfolio/portfolioProjects/personalPortfolioWebsite/resources/images/fredBarrett02.jpg);
     background-size: cover;
+    background-position: center;
   }
 
   .right {
@@ -317,6 +318,10 @@ footer {
 .top-banner {
   height: 3.5rem;
   line-height: 1rem;
+}
+
+.logo {
+  width: 70%;
 }
 
 
