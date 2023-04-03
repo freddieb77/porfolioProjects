@@ -275,6 +275,32 @@ footer {
     background-color: seashell;
 }
 
+.logo {
+  width: 50%;
+}
+
+.container {
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.left {
+  width: 100%;
+  margin: 1rem;
+}
+
+.right {
+  width: 100%;
+  margin: 1rem;
+}
+
+.right h1 {
+  margin: 1rem;
+}
+
+.right p {
+  margin: 1rem;
+}
   /* Responsive layout - when the screen is less than 700px wide, make the three columns stack on top of each other instead of next to each other */
   .column {
     width: 100%;
