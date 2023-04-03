@@ -88,7 +88,7 @@ main {
 .left {
     width: 50%;
     height: 775px;
-    background-image: url("images/fredBarrett02.jpg");  
+    background-image: url("https://github.com/freddieb77/portfolioProjects/blob/main/resources/images/fredBarrett02.jpg?raw=true")
     background-size: cover;
     background-position: center;
   }
