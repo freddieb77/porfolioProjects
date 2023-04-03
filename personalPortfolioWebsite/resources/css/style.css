@@ -313,6 +313,18 @@ footer {
 }
 
 @media only screen and (max-width: 470px) {
+
+.top-banner {
+  height: 3.5rem;
+  line-height: 1rem;
+}
+
+
+.right {
+  display: none;
+}  
+
+
 #skills {
   padding-bottom: 6rem;
 }
