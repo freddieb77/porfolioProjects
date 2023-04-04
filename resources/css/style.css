@@ -119,6 +119,7 @@ main {
 
 #read-more {
     cursor: pointer;
+    text-decoration: underline;
 }
 
 #read-more:hover {
@@ -135,6 +136,7 @@ main {
 
 #read-less {
   cursor: pointer;
+  text-decoration: underline;
 }
 
 #read-less:hover {
