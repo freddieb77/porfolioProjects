@@ -290,7 +290,6 @@ footer {
 .left {
   width: 100%;
   margin: 1rem;
-  z-index: -1;
 }
 
 .right {
