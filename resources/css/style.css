@@ -54,7 +54,7 @@ li a {
     text-align: center;
     padding: 2rem 2rem;
     background-color: #1a1b22;
-    text-decoration: none;
+    text-decoration: none;#d0c0c8
     font-size: 1.5rem;
 }
 
@@ -89,6 +89,7 @@ main {
     width: 50%;
     height: 775px;
     background-image: url(/portfolioProjects/resources/images/fredBarrett02.jpg);
+    /* background-image: url(/home/freddie/Documents/Visual_Studio/codecademyPortfolio/portfolioProjects/resources/images/fredBarrett02.jpg); */
     background-size: cover;
     background-position: center;
   }
@@ -237,8 +238,8 @@ footer {
 
 /* Style The Dropdown Button */
 .dd-btn {
-    background-color: seashell;
-    color: white;
+    background-color: #d0c0c8;
+    color: #1a1b22;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -247,21 +248,21 @@ footer {
 
 .dropdown {
     display: block;
-    float: right;
+    /* float: right; */
+    position: sticky;
 
 }
 
 .dropdown-content {
     display: none;
     position: relative;
-    background-color: seashell;
+    background-color: #d0c0c8;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
 }
 
 .dropdown-content a {
-    color: black;
+    color: #1a1b22;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -275,11 +276,11 @@ footer {
 }
 
 .dropdown:hover .dd-btn {
-    background-color: seashell;
+    background-color: #d0c0c8;
 }
 
 .logo {
-  width: 50%;
+  width: 100%;
 }
 
 .container {
@@ -323,7 +324,8 @@ footer {
 }
 
 .logo {
-  width: 70%;
+  /* width: 70%; */
+  width: 100%; 
 }
 
 
